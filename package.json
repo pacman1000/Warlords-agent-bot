@@ -1,0 +1,33 @@
+{
+  "name": "warlords-agent-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for Warlords – provides hero tips, game news via RSS, and scheduled announcements.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacman1000/Warlords-agent-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pacman1000/Warlords-agent-bot/issues"
+  },
+  "homepage": "https://github.com/pacman1000/Warlords-agent-bot#readme",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "discord.js": "^14.18.0",
+    "discord.js-rate-limiter": "^1.0.2",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3",
+    "xml2js": "^0.6.2"
+  },
+  "overrides": {
+    "undici": "^6.23.0"
+  }
+}
